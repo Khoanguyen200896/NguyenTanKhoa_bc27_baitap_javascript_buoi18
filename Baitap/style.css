@@ -1,0 +1,14 @@
+#world {
+    color: red;
+}
+
+#inputBai2 {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    gap: 1vh;
+}
+#inputBai2 input {
+    width: 5vh;
+    height: 3vh;
+}

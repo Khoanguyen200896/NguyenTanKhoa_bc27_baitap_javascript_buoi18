@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <h1>Hãy nhập 1 số nguyên</h1>
+
+    <input id="addNum" type="number" />
+    <button onclick="addNumButton()">Thêm số</button>
+    <br />
+    <p>Dãy số của bạn</p>
+    <div id="numArray"></div>
+    <!-- ____________________________ -->
+
+    <h1>1. Tổng số dương</h1>
+    <button id="tinhTong" onclick="sum()">Tính tổng</button>
+    <p id="tongCong"></p>
+
+    <!--Đếm số dương-->
+    <h1>2. Đếm số dương</h1>
+    <button id="demSoDuong" onclick="soDuong()">Đếm số</button>
+    <p id="demSo"></p>
+    <!--Số nhỏ nhất-->
+
+    <h1>3. Số nhỏ nhất</h1>
+    <button id="soNho" onclick="minNum()">Tìm số nhỏ nhất</button>
+    <p id="soNhoNhat"></p>
+    <!--Số dương nhỏ nhất-->
+    <h1>4. Số dương nhỏ nhất</h1>
+    <button id="soDuongNho" onclick="soDuongNhoNhat()">Tìm số nhỏ nhất</button>
+    <p id="soDuongNhoNhat"></p>
+    <!--Số chẵn cuối cùng-->
+    <h1>5. Số chẵn cuối cùng</h1>
+    <button id="soChanCuoi" onclick="soChanCuoiCung()">
+      Tìm số chẵn cuối cùng
+    </button>
+    <p id="soChanCuoiCung"></p>
+   <!--Đổi chỗ phần tử trong mảng-->
+    <h1>6. Đổi chỗ</h1>
+    <input id="num1" type="number" />
+    <input id="num2" type="number" />
+    <button id="soChanCuoi" onclick="swapIndex()">Đổi chỗ</button>
+    <p>Array sau khi đổi vị trí : </p> <p id="afterSwapArray"></p>
+    <!--Sắp xếp tăng dần-->
+    <h1>7.Sắp xếp tăng dần</h1>
+    <button id="sapXepTang" onclick="sapXepTangDan()">Sắp xếp</button>
+    <p id="sapXep"></p>
+    <!--Số nguyên tố đầu tiên-->
+    <h1>8.Số nguyên tố đầu tiên</h1>
+    <button id="soNguyenTo" onclick="checkSoNguyenTo()">Sắp xếp</button>
+    <p id="nguyenTo"></p>
+
+    <!--Bài 9-->
+    <h1>9.Hãy nhập 1 số</h1>
+
+    <input id="addNum2" type="number" />
+    <button onclick="addNumButton2()">Thêm số</button>
+    <br />
+    <p>Dãy số của bạn</p>
+    <div id="numArray2"></div>
+    <br><br>
+    <button onclick="checkInterger()">Check số nguyên</button>
+    <p id="soNguyenDisplay"></p>
+    <!--Bài 10-->
+    <h1>10. So sánh số âm và dương</h1>
+    <button onclick="soSanhAmDuong()">So sánh</button>
+    <p id="amDuongDisplay"></p>
+    <br><br><br>
+  </body>
+</html>
